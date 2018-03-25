@@ -1,10 +1,16 @@
-import java.lang.*;
-import java.util.*;
-
-
-public class test {
+public class Test {
     public static void main(String[] args)
     {
-        System.out.println("i love");
+        try {
+            Object o = (Object) Class.forName("Abstract").newInstance();
+        } catch(Exception e)
+        {
+            e.printStackTrace();
+        }
     }
+}
+
+
+abstract class Abstract{
+
 }
