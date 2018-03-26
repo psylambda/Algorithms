@@ -2,8 +2,8 @@
 *.class
 
 #IDEA files
-*.iml
-/.idea
+#*.iml
+#.idea/
 
 # Log file
 *.log
