@@ -8,11 +8,6 @@
     <artifactId>algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
-
-    accepted
-    The chances are mostly of an incompatible maven-plugin version in your module. You could try to update the plugin configuration in the parent module to the following and test:
-
     <build>
         <plugins>
             <plugin>
